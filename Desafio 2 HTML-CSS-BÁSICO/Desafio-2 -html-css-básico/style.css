@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10px;
+  padding: ;
+}
+
+.title {
+  text-shadow: 0 0 10px rgb(224, 255, 252);
+  font-family: "Times New Roman", Times, serif;
+}
+.subtitle {
+  margin-top: 20px;
+  text-shadow: 0 0 10px rgb(224, 255, 252);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.imagem {
+  margin-top: 30px;
+  border: solid;
+  border-radius: 10px;
+  border-style: inherit;
+}

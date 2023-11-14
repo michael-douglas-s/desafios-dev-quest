@@ -1,0 +1,53 @@
+/* Personalizei conforme aprendi no curso, como dito, a prática leva a perfeição */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.fundo {
+  background-image: linear-gradient(to top, rgb(12, 255, 243), rgb(8, 1, 15));
+  background-attachment: fixed;
+}
+
+.texto {
+  margin: 40px;
+  padding: 20px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Rubik&family=Secular+One&display=swap");
+
+.title {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 40px;
+  font-family: "Fira Code";
+  font-weight: 500;
+  color: rgb(253, 253, 253);
+  text-shadow: 0 0 10px rgb(224, 255, 252);
+}
+
+.paragrafo-padrao {
+  background-color: #f5f5f5;
+  margin: 40px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.274);
+}
+
+.paragrafo-destacado {
+  background-color: #f0cce2;
+  margin: 40px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.274);
+}
+
+.conteudo {
+  width: 50%;
+  margin-left: 25%;
+}
